@@ -9,11 +9,15 @@ body {
 
 .customer {
     border: 2px solid blue;
+    text-align: center;
 }
+
 
 .name {
     border: 2px solid brown;
+    text-transform: capitalize;
 }
+
 
 .image {
     padding: 1rem;
