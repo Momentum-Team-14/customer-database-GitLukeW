@@ -1,0 +1,30 @@
+body {
+    /* background-image: url(./rss/7-78625_high-resolution-star-wars-space.jpg); */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer {
+    border: 2px solid blue;
+}
+
+.name {
+    border: 2px solid brown;
+}
+
+.image {
+    padding: 1rem;
+    border-radius: 999rem;
+     }
+
+.email {
+    border: 2px solid red;
+    color: grey;
+}
+
+.street {
+    border: 2px solid purple;
+}
