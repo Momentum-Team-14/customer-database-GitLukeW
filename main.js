@@ -14,10 +14,10 @@ function showCustomerName(customerArray) {
         // image div here
         let imageDiv = document.createElement('img')
         imageDiv.classList.add ('image')
-        imageDiv.src = 'rss/images.jpg'
+        imageDiv.src = `${customer.picture.large}`
         customerDiv.appendChild(imageDiv)
         customerDiv.appendChild(nameDiv)
-        //imageDiv.src = `${customer.picture.large}
+        
         
         //Email
         let emailDiv = document.createElement('div')
